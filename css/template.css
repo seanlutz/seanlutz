@@ -82,6 +82,10 @@ body {
 .name {
     padding: 10px 0px ;
     text-align: center;
+    color:gray;
+    opacity: 50;
+
+
 }
 
 .text {
