@@ -14,8 +14,7 @@
  */
  
 /*      light colors         */
-/* altered- 362 del    background: #e78b90; */
-*/
+/* altered- 362*/
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -361,6 +360,7 @@ body > .navbar-collapse a {
 }
 
 *::selection {
+   background: transparent; 
   color: #FFFFFF;
 }
 
