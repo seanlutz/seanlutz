@@ -1,74 +1,77 @@
 /*
-	Strata by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Button */
+/* Basic */
 
+	form input[type=text],
+	form input[type=password],
+	form select,
+	form textarea {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
+	button,
 	.button {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-/* Form */
+/* Section/Article */
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
+	section > .last-child,
+	article > .last-child,
+	section.last-child,
+	article.last-child {
+		margin-bottom: 0;
+	}
+
+/* Box */
+
+	.box {
+		border: solid 1px #ddd;
+	}
+
+/* List */
+
+	ul.social li a {
 		position: relative;
+		top: 0 !important;
+		overflow: hidden;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: 2.75em;
-		line-height: 2.75em;
-	}
-
-	input[type="checkbox"] + label:before,
-	input[type="radio"] + label:before {
-		display: none;
-	}
-
-/* Image */
-
-	.image {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.image:before, .image:after {
-			display: none !important;
+		ul.social li a:before {
+			background: none;
 		}
 
-		.image img {
+/* Wrappers */
+
+	.wrapper {
+		border-top: solid 1px #ddd;
+	}
+
+/* Nav */
+
+	#nav a {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+/* Articles */
+
+	#top .image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		#top .image img {
 			position: relative;
 			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
-
-/* Header */
-
-	#header {
-		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
-
-		#header h1 {
-			color: #ffffff;
-		}
-
-/* Footer */
-
-	#footer .icons a {
-		color: #ffffff;
-	}
