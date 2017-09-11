@@ -36,6 +36,8 @@ h2 {
   font-size: xx-large;
 }
 .img-circle {
+    height: auto; 
+    width: auto; 
     border-radius: 50%;
 }
 #circular {
