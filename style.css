@@ -95,11 +95,11 @@ p {
   font-size: large;
   border-radius: 4px;
   color: #ffffff;
-  border: 0.1em solid rgb(75, 168, 211);
+  border: 0.1em solid rgb(36, 165, 64);
   /* Border box brings down anchor text,
   border width has to be subtracted
   off of line-height for centering */
-  background-color: rgb(54, 158, 204);
+  background-color: rgb(9, 142, 38);
   height: 3em;
   line-height: 2.9em;
   width: 80%;
